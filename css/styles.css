@@ -98,7 +98,7 @@
 
   #fxd:hover {
     color: black;
-    transform: rotate(-15deg);
+    transform: skewy(-6deg);
     /* transform: opacity 300ms  ease-in-out 1s;
     transform: skewY(-15deg); */
     /*box-shadow: 0 60px 20px rgba(0,0,0,.1);*/
