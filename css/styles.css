@@ -1,9 +1,9 @@
-@media only screen and (min-width:400px) {
   body {
     /*    background-color: black;*/
     background-image: url("../images/background-img-b4-compressor (1).jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
     /* no-repeat center center
         fixed;
     -webkit-background-size: cover;
@@ -12,13 +12,18 @@
     background-size: cover; */
   }
 
-  nav {
+  .pow {
     background-color: black;
   }
 
-  .nav li {
+  nav img {
+    float: left;
+  }
+
+  nav ul li {
     display: inline-block;
     padding: 10px;
+    float: right;
   }
 
   #icons {
@@ -42,6 +47,7 @@
   #grtng {
     font-size: 80px;
     color: darkturquoise;
+    clear: both;
     /*    margin-left: 80px;*/
   }
 
@@ -95,7 +101,8 @@
     text-decoration: none;
     list-style-type: none;
   }
-  .send:hover{
+
+  .send:hover {
     background-color: green;
   }
 
@@ -117,11 +124,15 @@
 
   #first {
     margin-top: 40px;
+    display: flex;
+    flex-direction: row;
   }
 
   #second {
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
   }
 
   .pot {
@@ -129,6 +140,7 @@
     filter: alpha(opacity=50);
     width: 300px;
     height: 300px;
+    margin-right: 10px;
   }
 
   .pot:hover {
@@ -136,4 +148,3 @@
     filter: alpha(opacity=100);
     transform: skewy(-6deg);
   }
-}
