@@ -1,9 +1,9 @@
   body {
-    /*    background-color: black;*/
-    background-image: url("../images/background-img-b4-compressor (1).jpg");
+       background-color: black;
+    /* background-image: url("../images/background-img-b4-compressor (1).jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+    margin: 0; */
     /* no-repeat center center
         fixed;
     -webkit-background-size: cover;
@@ -94,9 +94,9 @@
     font-weight: bold;
   }
 
-  #home {
-    margin-left: 10px;
-  }
+  /* #home {
+    margin-left: 10px; */
+  /* } */
 
   li {
     text-decoration: none;
