@@ -88,11 +88,12 @@
   }
 
   #cont {
-    margin-left: 80px;
+    margin-left: 280px;
   }
 
   #cntct {
     margin-top: 20px;
+    margin-left: 55px;
   }
 
   .fixd {
@@ -154,6 +155,10 @@
   }
   #second p{
     color: white;
+  }
+  footer{
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .pot {
