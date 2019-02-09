@@ -11,6 +11,11 @@
     -o-background-size: cover;
     background-size: cover; */
   }
+  #profile{
+    float: right;
+    border-radius: : 0px solid darkturquoise;
+    border-radius: 40px;
+  }
 
   .pow {
     background-color: black;
@@ -22,8 +27,11 @@
 
   nav ul li {
     display: inline-block;
-    padding: 10px;
-    float: right;
+    padding-right: 70px;
+    font-size: 20px;
+    /* padding: 50px;
+    padding: 50px; */
+    /* float: right; */
     background-color: black;
   }
 
@@ -94,9 +102,9 @@
     font-weight: bold;
   }
 
-  /* #home {
-    margin-left: 10px; */
-  /* } */
+  #home {
+    margin-left: 450px; */
+  /* }
 
   li {
     text-decoration: none;
@@ -114,6 +122,9 @@
     transform: skewY(-15deg); */
     /*box-shadow: 0 60px 20px rgba(0,0,0,.1);*/
   }
+  .send:hover{
+    background-color: #8BC34A;
+  }
 
   .fixd:hover {
     color: white;
@@ -128,12 +139,21 @@
     display: flex;
     flex-direction: row;
   }
+  #first p{
+    color: white;
+  }
+  #contcts{
+    color: white;
+  }
 
   #second {
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
+  }
+  #second p{
+    color: white;
   }
 
   .pot {
