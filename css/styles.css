@@ -20,11 +20,12 @@
   .pow {
     background-color: black;
   }
-
-  nav img {
-    float: left;
-  }
-
+nav a img{
+  border-radius: 40px;
+  float: left;
+  width: 100;
+  height: 40;
+}
   nav ul li {
     display: inline-block;
     padding-right: 70px;
@@ -52,11 +53,24 @@
   #icons:hover {
     color: darkturquoise;
   }
+  .rop h2{
+    color: darkturquoise;
+  }
+  .rop h1{
+    color: white;
 
-  #grtng {
+  }
+  .rop h2 >span{
+    color: white;
+  }
+#ent{
+  color: white;
+}
+  .grtng {
     font-size: 80px;
     color: darkturquoise;
     clear: both;
+    margin-top: 80px;
     /*    margin-left: 80px;*/
   }
 
@@ -80,6 +94,10 @@
     margin-bottom: 100px;
     margin-left: 20px;
   }
+  .rot{
+    background-color: grey;
+  }
+
 
   #am {
     font-size: 18px;
@@ -94,7 +112,13 @@
   #cntct {
     margin-top: 20px;
     margin-left: 55px;
+    margin-bottom: 30px;
   }
+  #cntct  p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 32px;
+  }
+
 
   .fixd {
     color: darkturquoise;
@@ -129,10 +153,11 @@
 
   .fixd:hover {
     color: white;
-    transform: rotate(-15deg);
+    transform: skewy(-6deg);
+    /* transform: rotate(-15deg);
     transform: opacity 300ms ease-in-out 1s;
-    transform: skewY(-15deg);
-    border-color: aqua;
+    transform: skewY(-15deg); */
+
   }
 
   #first {
@@ -145,6 +170,8 @@
   }
   #contcts{
     color: white;
+    font-weight: bold ; font-family: 'Lobster', cursive;
+    margin-left: 80px;
   }
 
   #second {
