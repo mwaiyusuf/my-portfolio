@@ -153,11 +153,16 @@ nav a img{
 
   .fixd:hover {
     color: white;
-    transform: skewy(-6deg);
     /* transform: rotate(-15deg);
     transform: opacity 300ms ease-in-out 1s;
     transform: skewY(-15deg); */
 
+  }
+  .ros a{
+    text-decoration: underline;
+  }
+  .ros a:hover{
+    color: darkturquoise;
   }
 
   #first {
