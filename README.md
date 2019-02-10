@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Portfolio
 1.Independent project
 2.It is a site containing my personal details.(CV)
@@ -13,3 +14,6 @@
 1.https://unsplash.com
 ### License
 Copyright (c) {2019} **{mwaiyusuf}**
+=======
+
+>>>>>>> 8243b4f082d6c417ab133f462ed14b808f3c8d2a
