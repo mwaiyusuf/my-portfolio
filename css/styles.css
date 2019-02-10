@@ -161,7 +161,7 @@ nav a img{
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: #FFFFFF; /* Set a background color */
-  color: #B2EBF2; /* Text color */
+  color: black; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
@@ -201,6 +201,7 @@ nav a img{
   }
 
   #first {
+    margin-left: 50px;
     margin-top: 40px;
     display: flex;
     flex-direction: row;
@@ -215,6 +216,7 @@ nav a img{
   }
 
   #second {
+    margin-left: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
