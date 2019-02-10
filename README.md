@@ -11,3 +11,5 @@
 1.Font Awesome
 #Images
 1.https://unsplash.com
+### License
+Copyright (c) {2019} **{mwaiyusuf}**
